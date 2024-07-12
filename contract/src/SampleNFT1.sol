@@ -4,7 +4,7 @@ pragma solidity ^0.8.14;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
-contract SampleNFT is ERC721Enumerable {
+contract SampleNFT1 is ERC721Enumerable {
     mapping(uint256 => bytes) private _sentences;
 
     constructor() ERC721("SampleNFT", "SPLNFT") {}
